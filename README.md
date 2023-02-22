@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Spring Boot Fullstack CRUD Operations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Full Stack Crud Operations Using Spring Boot and React.Js
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+Full Stack Working Demo: https://crud-springboot-fullstack.netlify.app/
 
-### `npm start`
+## Project Demo Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot](https://github.com/TawhidKomol/crud-using-spring-boot-reactjs/blob/main/src/screenshot/Screenshot%202023-02-22%20234149.png?raw=true)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![App Screenshot](https://github.com/TawhidKomol/crud-using-spring-boot-reactjs/blob/main/src/screenshot/Screenshot%202023-02-22%20234732.png?raw=true)
 
-### `npm test`
+![App Screenshot](https://github.com/TawhidKomol/crud-using-spring-boot-reactjs/blob/main/src/screenshot/Screenshot%202023-02-22%20234813.png?raw=true)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Railway
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bring your code, we'll handle the rest. Made for any language, for projects big and small. [Railway](https://railway.app/)
+is the cloud that takes the complexity out of shipping software.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a new empty project in Railway and start by creating a MySQL database. Once you have that created you can create
+a new project from GitHub. You can use the following environment variables based on the database you just created.
 
-### `npm run eject`
+```properties
+spring_profiles_active=prod
+PROD_DB_HOST=containers-us-west-124.railway.app
+PROD_DB_PORT=5540
+PROD_DB_NAME=railway
+PROD_DB_PASSWORD=******
+PROD_DB_USERNAME=root
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+###  My Profile Links
+[![portfolio](https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://tawhidkomol.github.io/Portfolio/index.html)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tawhid-komol-88a43b1a0//)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/TawhidKomol/)
+[![facebook](https://img.shields.io/badge/facebook-1DA1F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/towhid.komol/)
+[![facebook](https://img.shields.io/badge/instagram-1DA1F2?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/towhid_komol/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
